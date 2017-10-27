@@ -13,5 +13,5 @@
 ## 2. Devise features
 ## 3. Select features
 ## 4. Evaluate features
-/t Feature crosses - fe_presente.R y fe_tendencia.R
-/t Feature importance - xgboost_final.R
+Feature crosses - fe_presente.R y fe_tendencia.R
+Feature importance - xgboost_final.R
