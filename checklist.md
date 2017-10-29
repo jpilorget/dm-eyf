@@ -1,4 +1,4 @@
-# Listado de tareas para el trabajo
+# To-do list for the first deliver
 
 ## 1. Brainstorm features
 
@@ -6,33 +6,37 @@
 
 ### 1.2. Missing value treatment (deletion, mean, predict, knn)
 
-* Me quedo con los valores como vienen.
+* I'm not doing imputation.
 
-* Falta analizar cómo toma LightGBM los valores nulos.
+* Analyze how LightGBM deals with missing values.
 
-### 1.3 Create new ratios and proportions (tirar regresiones)
+### 1.3 Create new ratios and proportions
 
-* Construyo los cocientes que armó Denicolay (ver cómo los hace).
+* Build ratios with regressions written in C++ (they're way faster than R code) and actual variables.
 
-* Incorporo la historia de los 6 meses anteriores. 
+* Add previous months (6?) variables. 
 
-### 1.4 Binning/bucketing (crear intervalos para variables significativas)
+### 1.4 Binning/bucketing 
 
-* El LightGBM discretiza en 256 valores.
+* Develop ranks for selected features.
 
-### 1.5 Reframe numerical quantities (convertir a cientos o miles de pesos)
+* LightGBM already discretize some variables (into 256 categories).
 
-* Esto lo puedo hacer para las variables monetarias. Sirve también para llevar a cero a todos los valores menores a mil.
+### 1.5 Reframe numerical quantities 
+
+* Turn quantities into hundreds or thousands. This allows to put together all the low values.
+
+* Reframe days into months or months into years.
 
 ### 1.6 Variable transformation (raíz cuadrada/cúbica o logaritmo - simetrizar distribuciones)
 
-### 1.7 Outlier detection and treatment (detección de valores extremos)
+### 1.7 Outlier detection and treatment
 
-* No voy a aplicar detección de valores extremos.
+* I won't, in this instance, try to detect any outliers
 
-### 1.8 Decomposing categorical attrributes (binarización y one-hot encoding)
+### 1.8 Decomposing categorical attrributes
 
-* Esto ya está mayormente hecho con el conjunto de variables originales.
+* Binarization and one-hot encoding is done in almost all variables that need it in the original dataset.
 
 ## 2. Devise features
 
@@ -44,7 +48,7 @@
 
 ### Feature importance
 
-* Evalué la importancia en el modelo de abril con **lightgbm_final.R** y obtuve el siguiente ranking:
+* I made an importance rank using **lightgbm_final.R** and got the following ordered attributes:
 1. mpasivos_margen
 2. Visa_Finiciomora
 3. Visa_marca_atraso
@@ -56,4 +60,4 @@
 9. Visa_mpagospesos
 10. mtarjeta_visa_consumo
 
-* Para la importancia en febrero con historia (construida con **fe_presente_abril.R** y **fe_tendencia_abril.R**) los primeros 10 son:
+* Need to check the most important attributes using **fe_presente_abril.R** and **fe_tendencia_abril.R**.
