@@ -12,15 +12,15 @@
 
 ### 1.3 Create new ratios and proportions
 
-* Build ratios with regressions written in C++ (they're way faster than R code) and actual variables.
+* Create ratios and proportions in R for present month.
 
-* Add previous months (6?) variables. 
+* Build ratios with regressions written in C++ (they're way faster than R code) for previous (6?) months.
 
 ### 1.4 Binning/bucketing 
 
 * Develop ranks for selected features.
 
-* LightGBM already discretize some variables (into 256 categories).
+* LightGBM already discretizes some variables (into 256 categories).
 
 ### 1.5 Reframe numerical quantities 
 
