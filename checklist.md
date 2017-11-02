@@ -14,7 +14,7 @@
 
 * Create ratios and proportions in R for present month.
 
-* Build ratios with regressions written in C++ (they're way faster than R code) for previous (6?) months.
+* Build ratios with regressions written in C++ (they're way faster than R code) for previous months.
 
 ### 1.4 Binning/bucketing 
 
@@ -24,15 +24,11 @@
 
 ### 1.5 Reframe numerical quantities 
 
-* Turn quantities into hundreds or thousands. This allows to put together all the low values.
-
-* Reframe days into months or months into years.
-
 ### 1.6 Variable transformation (raíz cuadrada/cúbica o logaritmo - simetrizar distribuciones)
 
 ### 1.7 Outlier detection and treatment
 
-* I won't, in this instance, try to detect any outliers
+* I won't try to detect any outliers
 
 ### 1.8 Decomposing categorical attrributes
 
