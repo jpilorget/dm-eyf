@@ -24,7 +24,11 @@
 
 ### 1.5 Reframe numerical quantities 
 
-### 1.6 Variable transformation (raíz cuadrada/cúbica o logaritmo - simetrizar distribuciones)
+### 1.6 Variable transformation 
+
+* Square/Cube root or log transformation 
+
+* The goal is to get symmetrical distributions.
 
 ### 1.7 Outlier detection and treatment
 
