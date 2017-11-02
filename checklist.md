@@ -61,17 +61,17 @@
 10. mtarjeta_visa_consumo
 
 * Need to check the most important attributes using **fe_presente_abril.R** and **fe_tendencia_abril.R**.
-tmovimientos_ultimos90dias
-mcaja_ahorro_Paquete
-mpasivos_margen
-mv_Finiciomora
-mcuentas_saldo
-Visa_Finiciomora
-Visa_cuenta_estado_tend
-Master_Finiciomora
-tmovimientos_ultimos90dias_tend
-Visa_marca_atraso_tend
-Master_mpagominimo_tend
-mdescubierto_preacordado_tend
-mcuenta_corriente_Paquete
-mv_marca_atraso_tend
+1. tmovimientos_ultimos90dias
+2. mcaja_ahorro_Paquete
+3. mpasivos_margen
+4. mv_Finiciomora
+5. mcuentas_saldo
+6. Visa_Finiciomora
+7. Visa_cuenta_estado_tend
+8. Master_Finiciomora
+9. tmovimientos_ultimos90dias_tend
+10. Visa_marca_atraso_tend
+11. Master_mpagominimo_tend
+12. mdescubierto_preacordado_tend
+13. mcuenta_corriente_Paquete
+14. mv_marca_atraso_tend
