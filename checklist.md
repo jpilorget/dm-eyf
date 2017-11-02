@@ -1,4 +1,4 @@
-# To-do list for the first deliver
+# To-do list for the first due date
 
 ## 1. Brainstorm features
 
@@ -60,7 +60,7 @@
 9. Visa_mpagospesos
 10. mtarjeta_visa_consumo
 
-* Need to check the most important attributes using **fe_presente_abril.R** and **fe_tendencia_abril.R**.
+* Need to check the most important (key) attributes using **fe_presente_abril.R** and **fe_tendencia_abril.R**.
 1. tmovimientos_ultimos90dias
 2. mcaja_ahorro_Paquete
 3. mpasivos_margen
